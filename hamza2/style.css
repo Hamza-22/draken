@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+
+
+
+
+.main{
+    background-color: grey;
+    height:100vh ;
+    padding: 90px 0;
+}
+
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+
+}
+.main__inner-left-title{
+
+    font-size: 40px;
+    font-family: Arial;
+    color: white;
+}
+.main_inner-left-description{
+    font-size: 20px;
+    font-family: Arial;
+    color: white;
+}
+.main__inner-right{
+    background:url("https://foni.club/uploads/posts/2023-02/thumbs/1677176311_foni-club-p-chifuyu-matsuno-art-2.jpg") ;
+    height: 300px;
+    width: 40%;
+    background-size: cover;
+    border: 20px solid black;
+}
+
+
+.main__inner{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.main__inner-left{
+    width: 40%;
+
+}
+h2{
+    font-size: 60px;
+    font-family: sans-serif;
+    text-align: center;
+    color: black;
+}
+
+.about{
+    padding: 50px 0
+
+}
+
+.about__inner-bigIMG{
+    background: url("https://wwv.findani.me/wp-content/uploads/2021/10/izobrazhenie_2021-10-22_110853.png");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 400px;
+    border: 10px solid grey;
+    border-radius: 20px;
+    margin-top: 70px;
+}
+
+.about__inner-big-text{
+    font-family: Arial;
+    color: black;
+    font-size: 15px;
+    line-height: 30px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.musik__inner{
+    display: flex;
+    width: 50%;
+    margin: 20px auto;
+    justify-content: space-between;
+}
+
+.musik__inner h4{
+    color:blue;
+    font-family: sans-serif;
+    font-size: 30px;
+
+}
+
+.musik__inner button{
+    background-color: black;
+    color: blue;
+    width: 150px;
+    height: 50px;
+    border: none;
+    font-size: 30px;
+    font-family: Arial;
+    border-radius: 20px;
+    font-weight: bold ;
+
+}
+
